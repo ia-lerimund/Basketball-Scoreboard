@@ -26,9 +26,9 @@ h1 {
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .control-btn {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	border: 2px solid white;
 	border-radius: 10%;
 	box-shadow: 0px 0px 2px white;
@@ -52,7 +52,7 @@ h1 {
 	background-size: cover;
 }
 #winner {
-	font-size: 1.4rem;
+	font-size: 2rem;
 }
 .score {
 	min-width: 20%;
