@@ -35,6 +35,7 @@ function rematch() {
 	guestScore = 0;
 	homeText.textContent = homeScore;
 	guestText.textContent = guestScore;
+	winner.textContent = "";
 }
 function endGame() {
 	let whoWon = "";
