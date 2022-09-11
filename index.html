@@ -8,30 +8,32 @@
 		<title>Basketball Scoreboard</title>
 	</head>
 	<body>
-		<div class="score">
-			<h1>HOME</h1>
-			<p id="home-score">0</p>
-			<div class="buttons">
-				<div onclick="increaseByOne()" class="btn-nr">+1</div>
-				<div onclick="increaseByTwo()" class="btn-nr">+2</div>
-				<div onclick="increaseByThree()" class="btn-nr">+3</div>
+		<div class="container">
+			<div class="score">
+				<h1>HOME</h1>
+				<p id="home-score">0</p>
+				<div class="buttons">
+					<div onclick="increaseByOne()" class="btn-nr">+1</div>
+					<div onclick="increaseByTwo()" class="btn-nr">+2</div>
+					<div onclick="increaseByThree()" class="btn-nr">+3</div>
+				</div>
 			</div>
-		</div>
-		<div class="controls">
-			<div onclick="rematch()" class="control-btn" id="fire">
-				<p>REMATCH</p>
+			<div class="controls">
+				<div onclick="rematch()" class="control-btn" id="fire">
+					<p>REMATCH</p>
+				</div>
+				<div onclick="endGame()" class="control-btn" id="cheers">
+					<p>END GAME</p>
+				</div>
 			</div>
-			<div onclick="endGame()" class="control-btn" id="cheers">
-				<p>END GAME</p>
-			</div>
-		</div>
-		<div class="score">
-			<h1>GUEST</h1>
-			<p id="guest-score">0</p>
-			<div class="buttons">
-				<div onclick="increaseByOneG()" class="btn-nr">+1</div>
-				<div onclick="increaseByTwoG()" class="btn-nr">+2</div>
-				<div onclick="increaseByThreeG()" class="btn-nr">+3</div>
+			<div class="score">
+				<h1>GUEST</h1>
+				<p id="guest-score">0</p>
+				<div class="buttons">
+					<div onclick="increaseByOneG()" class="btn-nr">+1</div>
+					<div onclick="increaseByTwoG()" class="btn-nr">+2</div>
+					<div onclick="increaseByThreeG()" class="btn-nr">+3</div>
+				</div>
 			</div>
 		</div>
 		<p id="winner"></p>
